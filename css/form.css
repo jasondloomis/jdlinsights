@@ -1,0 +1,80 @@
+/*
+	Final Project
+	IT 270
+
+	Author: Jason Loomis
+	Date: June 2015
+
+	Filename: form.css
+	Supporting files: DSC_0136.jpg
+*/
+
+#comment {
+	clear: left;
+}
+
+/* Fieldset styles */
+
+fieldset {
+	background-color: rgb(245,193,32);
+	border: 2px solid rgb(105,96,87);
+	float: left;
+	margin: 10px 0px 10px 2%;
+	width: 45%;
+}
+
+legend {
+	background-color: rgb(105,96,87);
+	padding: 3px 0px;
+	text-indent: 4px;
+	width: 100%;
+}
+
+/* Label styles */
+
+label {
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 14px;
+	margin: 7px 4% 7px 5px;
+	width: 40%;
+}
+
+/* Input control styles */
+
+input {
+	display: block;
+	float: left;
+	font-size: 14px;
+	margin: 7px;
+	width: 50%;
+}
+
+input#vState {
+	width: 50px;
+}
+
+/* Textarea styles */
+
+textarea {
+	display: block;
+	font-size: 14px;
+	float: left;
+	height: 150px;
+	margin: 10px 0px;
+	width: 50%;
+}
+
+/* Button Styles */
+
+form p {
+	text-align: center;
+}
+
+input[type="submit"], input[type="reset"] {
+	display: inline;
+	float: none;
+	height: 40px;
+	width: 200px;
+}

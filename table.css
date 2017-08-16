@@ -1,0 +1,34 @@
+
+/*
+	Final Project
+	IT 270
+
+	Author: Jason Loomis
+	Date: June 2015
+
+	Filename: table.css
+	Supporting files:
+*/
+
+/* Table style */
+
+table.abnpics {
+	width: 100%;
+}
+
+table.abnpics th {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+table.abnpics td {
+	text-align: center;
+	vertical-align: top;
+}
+
+table.abnpics img {
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+}
+	
